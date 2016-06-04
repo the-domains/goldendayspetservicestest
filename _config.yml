@@ -1,28 +1,40 @@
-name: GoldenDaysPetServicesTest
 favicon: null
-layout_spectrum: 0.26529
-typography_spectrum: 0.53507
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: GoldenDaysPetServicesTest
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.5767285
+  brandStrength: 0.5
+  lightness: 0.7183811
   brandColors:
     - '#dad9de'
     - '#0c0401'
     - '#5079d3'
     - '#87591d'
     - '#f9b550'
-  brandStrength: 0.5
-  lightness: 0.75
-  saturation: 0.625
-  rhythmicContrast: 0.5
-purpose: []
+  rhythmicContrast: 0.7369308
+typography_spectrum: 0.5059022
+layout_spectrum: 0.4890388
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
